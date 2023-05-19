@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb4e4cb-d72c-414c-ac5a-8fd206634d20" name="Changes" comment="Fully working java 11 version">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6fb4e4cb-d72c-414c-ac5a-8fd206634d20" name="Changes" comment="Adding README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684482985878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding README.md">
+      <created>1684485915227</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684485915227</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding README.md">
+      <created>1684486096835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684486096835</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +154,8 @@
     <MESSAGE value="First basic music streaming version" />
     <MESSAGE value="Fully working java 11 version" />
     <MESSAGE value="Commented and ready to submission version for java 11." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented and ready to submission version for java 11." />
+    <MESSAGE value="Adding README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,6 @@
 # Discord streaming bot
 ## Overview
-This bot is a simple bot that can stream audio from YouTube and other sources to a discord voice channel.
+This bot is a simple bot that can stream audio from youtube and other sources to a discord voice channel.
 It uses the Lavaplayer library to stream audio from YouTube and JDA library to connect to discord.
 ## Build
 To build this bot with maven, run the following command in the root directory of this project:
