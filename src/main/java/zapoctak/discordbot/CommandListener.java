@@ -18,21 +18,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-class GuildAudio {
-    public GuildAudio(AudioPlayer player, AudioMixer mixer) {
-        this.player = player;
-        this.mixer = mixer;
-    }
-
-    private AudioPlayer player;
-    private AudioMixer mixer;
-    public AudioPlayer player() {
-        return player;
-    }
-    public AudioMixer mixer() {
-        return mixer;
-    }
-}
+record GuildAudio(AudioPlayer player, AudioMixer mixer) {}
 
 /**
  * Handles all slash commands and responds to them.
@@ -71,56 +57,23 @@ public class CommandListener extends ListenerAdapter {
     @Override
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event){
         switch (event.getName()) {
-            case "play":
-                play(event);
-                break;
-            case "add":
-                add(event);
-                break;
-            case "stop":
-                stop(event);
-                break;
-            case "start":
-                start(event);
-                break;
-            case "pause":
-                pause(event);
-                break;
-            case "resume":
-                resume(event);
-                break;
-            case "volume":
-                volume(event);
-                break;
-            case "skip":
-                skip(event);
-                break;
-            case "queue":
-                queue(event);
-                break;
-            case "clear":
-                clear(event);
-                break;
-            case "remove":
-                remove(event);
-                break;
-            case "shuffle":
-                shuffle(event);
-                break;
-            case "loop":
-                loop(event);
-                break;
-            case "unloop":
-                unloop(event);
-                break;
-            case "nowplaying":
-                nowplaying(event);
-                break;
-            case "help":
-                help(event);
-                break;
-            default:
-                event.reply("**Error:** Command unknown").queue();
+            case "play" -> play(event);
+            case "add" -> add(event);
+            case "stop" -> stop(event);
+            case "start" -> start(event);
+            case "pause" -> pause(event);
+            case "resume" -> resume(event);
+            case "volume" -> volume(event);
+            case "skip" -> skip(event);
+            case "queue" -> queue(event);
+            case "clear" -> clear(event);
+            case "remove" -> remove(event);
+            case "shuffle" -> shuffle(event);
+            case "loop" -> loop(event);
+            case "unloop" -> unloop(event);
+            case "nowplaying" -> nowplaying(event);
+            case "help" -> help(event);
+            default -> event.reply("**Error:** Command unknown").queue();
         }
     }
 
@@ -257,7 +210,7 @@ public class CommandListener extends ListenerAdapter {
      */
     private void queue(SlashCommandInteractionEvent event){
         StringBuilder response = new StringBuilder();
-        String queueTitle = "**Queue: \n**";
+        String queueTitle = "**Queue:** \n";
         response.append(queueTitle);
         int counter = 1;
         int charCounter = queueTitle.length();
