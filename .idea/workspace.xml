@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb4e4cb-d72c-414c-ac5a-8fd206634d20" name="Changes" comment="First basic music streaming version">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/AudioMixer.java" afterDir="false" />
+    <list default="true" id="6fb4e4cb-d72c-414c-ac5a-8fd206634d20" name="Changes" comment="Fully working java 11 version">
+      <change afterPath="$PROJECT_DIR$/src/main/javadoc/overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/AudioMixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/AudioMixer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/AudioSendControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/AudioSendControllor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/BotFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/BotFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/CommandListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/CommandListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zapoctak/discordbot/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,11 +45,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Josef Lukášek/Programming/Java/NPRG013/Zapoctak&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Josef Lukášek/Programming/Java/NPRG021/DU/RMIBROWSER&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,6 +63,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Josef Lukášek\Programming\Java\NPRG013\Zapoctak\src\main\javadoc" />
       <recent name="C:\Users\Josef Lukášek\Programming\Java\NPRG013\Zapoctak" />
     </key>
   </component>
@@ -93,7 +99,8 @@
       <workItem from="1682675282703" duration="14406000" />
       <workItem from="1682954786603" duration="67000" />
       <workItem from="1684320379347" duration="35062000" />
-      <workItem from="1684400651498" duration="707000" />
+      <workItem from="1684400651498" duration="13173000" />
+      <workItem from="1684479389356" duration="3453000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1682697996476</created>
@@ -109,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682715336694</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fully working java 11 version">
+      <created>1684402364830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684402364830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +132,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="First basic music streaming version" />
-    <option name="LAST_COMMIT_MESSAGE" value="First basic music streaming version" />
+    <MESSAGE value="Fully working java 11 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully working java 11 version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="net.dv8tion.jda.api.exceptions.ContextException" package="net.dv8tion.jda.api.exceptions" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/zapoctak/discordbot/CommandListener.java</url>
+          <line>225</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -17,7 +17,7 @@ public class Main {
             }
             var reader = new BufferedReader(new FileReader(args[0]));
             var token = reader.readLine();
-            BotFactory.buildBot(token);
+            BotFactory.buildBot(token); // build bot with token
         } catch (FileNotFoundException e) {
             System.out.println("Config file" + args[0] + " not found!");
             System.exit(1);
