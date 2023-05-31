@@ -63,6 +63,8 @@ public class AudioMixer extends AudioEventAdapter {
      * Stops the current track and removes it from the queue
      */
     public void stop(){
+        if (queue.size() == 0)
+            return;
         queue.remove(0);
         player.stopTrack();
     }
@@ -79,7 +81,8 @@ public class AudioMixer extends AudioEventAdapter {
      * Skips the current track and plays the next one in the queue
      */
     public void skip(){
-
+        if (queue.size() == 0)
+            return;
         player.stopTrack();
         queue.remove(0);
         if (queue.size() > 0){
@@ -132,6 +135,8 @@ public class AudioMixer extends AudioEventAdapter {
      * Shuffles the queue except for the current track
      */
     public void shuffle(){
+        if (queue.size() == 0)
+            return;
         var track = player.getPlayingTrack();
         if (track != null){
             queue.remove(0);
